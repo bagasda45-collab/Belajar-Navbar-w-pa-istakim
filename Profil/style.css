@@ -1,0 +1,84 @@
+body {
+  background: #0c0f14;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: rgba(20, 24, 31, 0.9);
+  padding: 30px;
+  width: 360px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.25);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+}
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid cyan;
+  box-shadow: 0 0 18px rgba(0, 255, 255, 0.8);
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 12px;
+  text-shadow: 0 0 10px cyan;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: cyan;
+  width: 80%;
+  margin: 10px auto 20px;
+  box-shadow: 0 0 10px cyan;
+}
+
+.info {
+  text-align: left;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.info span {
+  color: cyan;
+  text-shadow: 0 0 5px cyan;
+}
+
+.btn {
+  margin-top: 22px;
+  background: transparent;
+  border: 2px solid cyan;
+  padding: 12px;
+  width: 75%;
+  border-radius: 8px;
+  color: cyan;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.3);
+}
+
+.btn:hover {
+  background: cyan;
+  color: #000;
+  box-shadow: 0 0 22px cyan;
+  transform: scale(1.05);
+}
